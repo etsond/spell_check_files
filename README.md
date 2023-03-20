@@ -20,7 +20,7 @@ To run the program, pass in the name of a dictionary file and a text file to che
 The program will output a list of misspelled words and statistics about the dictionary and text file.
 
 ###  Code Overview
-Loading the Dictionary
+#### Loading the Dictionary
 The dictionary is loaded into a hash table using the load function, which reads in each word from the dictionary file and calculates its hash value using the djb2 hash function. The hash table is implemented as an array of linked lists to handle collisions.
 
 ```ruby
